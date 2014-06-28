@@ -9,24 +9,16 @@ Anchor Steam takes all the links on your opened page and lets you search through
 
 ## How To Use
 
-1. [Download](https://github.com/noazark/anchor-steam/releases/download/0.0.1/anchor-steam.crx) and install
+1. [Download and install](https://github.com/noazark/anchor-steam/releases/download/0.0.1/anchor-steam.crx)
 2. Type ">" into the Omnibox and then hit the "tab" key
 3. Search away!
-
-
-## P.S.
-
-This tool is in no way related (and neither am I) to the famous brewery that produces a beer of the same name. Anchor
-Steam searches through anchor tags (`<a></a>`) using a steam engine. This is the only qualified name for the tool,
-sorry if there was any confusion.
-
 
 # Development
 
 If you're interested in helping me out developing this tool, feel free! Open a pull request and lets talk about getting
 your code into the next version. If you're not sure what I just said take a look at
 [GitHub Flow](https://help.github.com/articles/github-flow-in-the-browser), or create a
-[new Issue](noazark/anchor-steam/issues/new) and ask for a feature!
+[new Issue](/noazark/anchor-steam/issues/new) and ask for a feature!
 
 ## License
 
@@ -49,3 +41,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
+
+## P.S.
+
+This tool is in no way related (and neither am I) to the famous brewery that produces a beer of the same name. Anchor
+Steam searches through anchor tags (`<a></a>`) using a steam engine. This is the only qualified name for the tool,
+sorry if there was any confusion.
