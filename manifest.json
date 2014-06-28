@@ -35,6 +35,7 @@
 	},
 	"web_accessible_resources": [
 		"js/jquery/jquery.min.js",
+		"js/jquery/jquery.min.map",
 		"src/content_script.js"
 	]
 }
