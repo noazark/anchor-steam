@@ -1,0 +1,41 @@
+{
+	"name": "Anchor Steam",
+	"version": "0.0.1",
+	"manifest_version": 2,
+	"description": "Search anchors!",
+	"homepage_url": "https://github.com/noazark/anchor-steam",
+	"icons": {
+		"16": "icons/icon16.png",
+		"48": "icons/icon48.png",
+		"128": "icons/icon128.png"
+	},
+	"background": {
+		"scripts": [
+			"src/background.js",
+			"js/jquery/jquery.min.js"
+		],
+		"persistent": true
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": [
+				"js/jquery/jquery.min.js",
+				"src/content_script.js"
+			]
+		}
+	],
+	"permissions": [
+		"tabs",
+		"https://*/*",
+		"http://*/*"
+	],
+	"omnibox": {
+		"keyword": ">"
+	},
+	"web_accessible_resources": [
+		"js/jquery/jquery.min.js",
+		"js/jquery/jquery.min.map",
+		"src/content_script.js"
+	]
+}
